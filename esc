@@ -1,0 +1,116 @@
+*   [33mcommit e074d0108feff5263bc4cdc499f4223603477730[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[31m|[m[32m\[m  Merge: 1e36c99 a607d07
+[31m|[m [32m|[m Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[31m|[m [32m|[m Date:   Fri May 28 21:51:23 2021 -0300
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Merge pull request #7 from future4code/arrumandoPastas
+[31m|[m [32m|[m     
+[31m|[m [32m|[m     Arrumando pastas
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit a607d070c033890ac2e2039900f6cf8f5949e390[m[33m ([m[1;31morigin/arrumandoPastas[m[33m, [m[1;32marrumandoPastas[m[33m)[m
+[31m|[m [32m|[m Author: unknown <luis.alvesvieira09@gmail.com>
+[31m|[m [32m|[m Date:   Fri May 28 21:35:53 2021 -0300
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     arrumando pastas
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit 0d2c25f5f021451583a124dac73b9d3fa634e710[m
+[31m|[m[31m/[m  Author: unknown <luis.alvesvieira09@gmail.com>
+[31m|[m   Date:   Thu May 27 22:25:00 2021 -0300
+[31m|[m   
+[31m|[m       Exercício Operadores
+[31m|[m   
+*   [33mcommit 1e36c991d13f09685bd25e0fc8af60d954972cdf[m[33m ([m[1;32mquinzena1-projeto[m[33m, [m[1;32mquinzena1-aula04[m[33m)[m
+[33m|[m[34m\[m  Merge: 6b6e563 926cbb4
+[33m|[m [34m|[m Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[33m|[m [34m|[m Date:   Fri May 21 19:46:25 2021 -0300
+[33m|[m [34m|[m 
+[33m|[m [34m|[m     Merge pull request #6 from future4code/quinzena1-aula3
+[33m|[m [34m|[m     
+[33m|[m [34m|[m     Exercicios Variaveis
+[33m|[m [34m|[m 
+[33m|[m * [33mcommit 926cbb4116e36d56b109bb38b30bf2effd687641[m[33m ([m[1;31morigin/quinzena1-aula3[m[33m, [m[1;32mquinzena1-aula3[m[33m)[m
+[33m|[m[33m/[m  Author: unknown <luis.alvesvieira09@gmail.com>
+[33m|[m   Date:   Fri May 21 00:09:13 2021 -0300
+[33m|[m   
+[33m|[m       Exercicios Variaveis
+[33m|[m   
+*   [33mcommit 6b6e563fe5b7e162bb31904319901a3944e67b3c[m
+[35m|[m[36m\[m  Merge: dfc75c8 cb9cae8
+[35m|[m [36m|[m Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[35m|[m [36m|[m Date:   Fri May 21 00:03:33 2021 -0300
+[35m|[m [36m|[m 
+[35m|[m [36m|[m     Merge pull request #1 from future4code/semana0-aula2-1
+[35m|[m [36m|[m     
+[35m|[m [36m|[m     Adição
+[35m|[m [36m|[m 
+[35m|[m * [33mcommit cb9cae8817ee6d5eb9b794bbffaef541f57eb569[m[33m ([m[1;31morigin/semana0-aula2-1[m[33m, [m[1;32msemana0-aula2-1[m[33m)[m
+[35m|[m [36m|[m Author: unknown <luis.alvesvieira09@gmail.com>
+[35m|[m [36m|[m Date:   Tue May 18 18:47:16 2021 -0300
+[35m|[m [36m|[m 
+[35m|[m [36m|[m     Adição
+[35m|[m [36m|[m   
+* [36m|[m   [33mcommit dfc75c8eacdeb4fd5805e67a04f6c37b81448dcc[m
+[1;31m|[m[1;32m\[m [36m\[m  Merge: 1638131 fddba2f
+[1;31m|[m [1;32m|[m [36m|[m Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[1;31m|[m [1;32m|[m [36m|[m Date:   Fri May 21 00:03:21 2021 -0300
+[1;31m|[m [1;32m|[m [36m|[m 
+[1;31m|[m [1;32m|[m [36m|[m     Merge pull request #2 from future4code/semana0-aula2-2
+[1;31m|[m [1;32m|[m [36m|[m     
+[1;31m|[m [1;32m|[m [36m|[m     Inclusão Musicas
+[1;31m|[m [1;32m|[m [36m|[m 
+[1;31m|[m * [36m|[m [33mcommit fddba2f5be58ab1e4bf4dcfacdc7e2d62c896d4d[m[33m ([m[1;31morigin/semana0-aula2-2[m[33m, [m[1;32msemana0-aula2-2[m[33m)[m
+[1;31m|[m [36m|[m[36m/[m  Author: unknown <luis.alvesvieira09@gmail.com>
+[1;31m|[m [36m|[m   Date:   Tue May 18 20:55:50 2021 -0300
+[1;31m|[m [36m|[m   
+[1;31m|[m [36m|[m       Inclusão Musicas
+[1;31m|[m [36m|[m   
+* [36m|[m   [33mcommit 16381317edc7aaf7df52f72cf24d45f70e4b0637[m
+[1;33m|[m[1;34m\[m [36m\[m  Merge: 4dab8fe 4e57374
+[1;33m|[m [1;34m|[m [36m|[m Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[1;33m|[m [1;34m|[m [36m|[m Date:   Fri May 21 00:03:09 2021 -0300
+[1;33m|[m [1;34m|[m [36m|[m 
+[1;33m|[m [1;34m|[m [36m|[m     Merge pull request #3 from future4code/semana0-aula2-3
+[1;33m|[m [1;34m|[m [36m|[m     
+[1;33m|[m [1;34m|[m [36m|[m     Inclusão Filmes
+[1;33m|[m [1;34m|[m [36m|[m 
+[1;33m|[m * [36m|[m [33mcommit 4e573743fe86d712c93187d58ff969e2ad5b5fbb[m[33m ([m[1;31morigin/semana0-aula2-3[m[33m, [m[1;32msemana0-aula2-3[m[33m)[m
+[1;33m|[m [36m|[m[36m/[m  Author: unknown <luis.alvesvieira09@gmail.com>
+[1;33m|[m [36m|[m   Date:   Tue May 18 21:42:00 2021 -0300
+[1;33m|[m [36m|[m   
+[1;33m|[m [36m|[m       Inclusão Filmes
+[1;33m|[m [36m|[m   
+* [36m|[m   [33mcommit 4dab8fefc976d2e33ea069b68f4ed06ba89005e0[m
+[1;35m|[m[1;36m\[m [36m\[m  Merge: 24c741e 297b774
+[1;35m|[m [1;36m|[m [36m|[m Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[1;35m|[m [1;36m|[m [36m|[m Date:   Fri May 21 00:02:49 2021 -0300
+[1;35m|[m [1;36m|[m [36m|[m 
+[1;35m|[m [1;36m|[m [36m|[m     Merge pull request #4 from future4code/semana0-aula2-4
+[1;35m|[m [1;36m|[m [36m|[m     
+[1;35m|[m [1;36m|[m [36m|[m     Inclusão Comidas
+[1;35m|[m [1;36m|[m [36m|[m 
+[1;35m|[m * [36m|[m [33mcommit 297b774dd84e9daa4bc54c392ba2f13e8eb52731[m[33m ([m[1;31morigin/semana0-aula2-4[m[33m, [m[1;32msemana0-aula2-4[m[33m)[m
+[1;35m|[m [36m|[m[36m/[m  Author: unknown <luis.alvesvieira09@gmail.com>
+[1;35m|[m [36m|[m   Date:   Tue May 18 22:54:43 2021 -0300
+[1;35m|[m [36m|[m   
+[1;35m|[m [36m|[m       Inclusão Comidas
+[1;35m|[m [36m|[m   
+* [36m|[m   [33mcommit 24c741ea6a7ebd3d9ad6e03a79a19da0654fc5c9[m
+[36m|[m[32m\[m [36m\[m  Merge: a8bfe4e 1e5f84c
+[36m|[m [32m|[m[36m/[m  Author: Luis César Alves Vieira <83991981+LAlves21@users.noreply.github.com>
+[36m|[m[36m/[m[32m|[m   Date:   Fri May 21 00:02:31 2021 -0300
+[36m|[m [32m|[m   
+[36m|[m [32m|[m       Merge pull request #5 from future4code/semana0-aula2-5
+[36m|[m [32m|[m       
+[36m|[m [32m|[m       Inclusão Redes Sociais
+[36m|[m [32m|[m 
+[36m|[m * [33mcommit 1e5f84cce88490cdd4960446cee926147b658b69[m[33m ([m[1;31morigin/semana0-aula2-5[m[33m, [m[1;32msemana0-aula2-5[m[33m)[m
+[36m|[m[36m/[m  Author: unknown <luis.alvesvieira09@gmail.com>
+[36m|[m   Date:   Tue May 18 23:05:19 2021 -0300
+[36m|[m   
+[36m|[m       Inclusão Redes Sociais
+[36m|[m 
+* [33mcommit a8bfe4ef6afa910c39019be6944dc12fc06a1e7e[m
+  Author: João Vinicius Alves <jvp.alves@hotmail.com>
+  Date:   Fri May 7 18:39:05 2021 -0300
+  
+      Initial commit
