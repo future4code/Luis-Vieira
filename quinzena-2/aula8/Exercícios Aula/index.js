@@ -2,7 +2,6 @@
 const palavra2 = "Mação"
 
 
-
 //if / else
 
 const condicao1 = true
