@@ -1,0 +1,12 @@
+.pai {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+
+.filho {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    min-width:25%
+}

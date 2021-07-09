@@ -7,27 +7,8 @@
 h2, p {
     padding: 8px;
   }
-
-.header {
-	display: flex;
-	align-items: center;
-	background-color: cor;
-	justify-content: space-between;
-	height: 60px;
-	padding: 0 20px;
-	grid-column: 1 / -1;
-
-}
-
-.general-container {
-display: grid;
-grid-template-rows: 60px 1fr 60px;
-grid-template-columns: 200px 1fr;
-height: 100vh;
-  }
-
-
-header {
+  
+  header {
     display: flex;
     align-items: center;
     background-color: orangered;
@@ -36,56 +17,124 @@ header {
     grid-column: 1 / -1;
     box-shadow: 2px 2px 2px 2px peachpuff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
   }
-
-.texto-video {
-    font: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-
-#icone-header {
-    width: 2em;
+  #minilogo {
+    height: 1em;
   }
-
-.icone-e-texto {
-    display: flex;
-    align-items: center;
-    height: 3em;
+  #buscar {
+    height: 2em;
   }
+  #txtBusca{
+    float:left;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    background-color:cornsilk;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .main {
+    display:flex;
+
+  }
+  .general-container {
+    width: 100%;
+    display: grid;
+    overflow:auto;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: cornsilk;
+    height: 80vh;
+    padding: 16px;
+    }
+
+    .container-video {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      grid-template-columns: 1fr;
+      background-color: black;
+      height: 80vh;
+      padding: 1vh;
+      
   
+      }
 
-.video-miniatura {
+  .caixa-videos {
+    background-color: black;
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
-    text-align: left;
-    box-shadow: 2px 2px 5px darkgrey;
-    justify-content:space-evenly;
-   
+    min-width: 320px;
   }
-  
-.mini-video {
+
+  .mini-video {
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
     width: 100%;
   }
-  
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 24px;
-    margin: 8px;
-    overflow: auto;
-    padding: 32px;
-    background-color: cornsilk;
-    height: 85vh;
+  .video-button {
+    cursor: pointer;
+    color:#fff;
+    font-size: 16px; 
+    width: 10%;
+    background-color: black;
+    border-style: none;
+    padding: 15px;
   }
-  
+  .video-grande {
+    width:60vw;
+    justify-content: center;
+    background-color: black;
+  }
 footer {
     display: flex;
     background-color: orangered;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     grid-column: 1 / -1;
     font-size: 24px;
     box-shadow: 6px 6px 6px 6px peachpuff;
+    height:10vh;
+    margin-top: 10px;
+  }
+
+  .footer-button {
+    border-radius: 6px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 16px; 
+    width: 100vw;
+    background-color: black;
+    border-style: none;
+    padding: 15px;
+  }
+
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Celulares */
+  .general-container {
+    background-color: lightsalmon;
+    grid-template-columns: 1fr;
+  }
+  }
+    
+  @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    /* Tablets */
+  .general-container {
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+  }
+  } 
+
+  .social-media {
+    align-content: center;
   }
