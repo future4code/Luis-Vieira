@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+h2, p {
+    padding: 8px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    justify-content: space-between;
+    padding: 0 20px;
+    grid-column: 1 / -1;
+    box-shadow: 2px 2px 2px 2px peachpuff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  #minilogo {
+    height: 1em;
+  }
+  #buscar {
+    height: 2em;
+  }
+  #txtBusca{
+    float:left;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    background-color:cornsilk;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .main {
+    display:flex;
+
+  }
+  .general-container {
+    width: 100%;
+    display: grid;
+    overflow:auto;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: cornsilk;
+    height: 80vh;
+    padding: 16px;
+    }
+
+    .container-video {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      grid-template-columns: 1fr;
+      background-color: black;
+      height: 80vh;
+      padding: 1vh;
+      
+  
+      }
+
+  .caixa-videos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+  }
+
+  .mini-video {
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+  }
+  .video-button {
+    cursor: pointer;
+    color:#fff;
+    font-size: 16px; 
+    width: 10%;
+    background-color: black;
+    border-style: none;
+    padding: 15px;
+  }
+  .video-grande {
+    width:60vw;
+    justify-content: center;
+    background-color: black;
+  }
+footer {
+    display: flex;
+    background-color: orangered;
+    justify-content: top;
+    align-items: center;
+    grid-column: 1 / -1;
+    font-size: 24px;
+    box-shadow: 6px 6px 6px 6px peachpuff;
+    height:10vh;
+    margin-top: 10px;
+  }
+
+  .footer-button {
+    border-radius: 6px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 16px; 
+    width: 100vw;
+    background-color: black;
+    border-style: none;
+    padding: 15px;
+  }
+
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Celulares */
+  .general-container {
+    background-color: lightsalmon;
+    grid-template-columns: 1fr;
+  }
+  }
+    
+  @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    /* Tablets */
+  .general-container {
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+  }
+  } 
+
+  .social-media {
+    align-content: center;
+  }
