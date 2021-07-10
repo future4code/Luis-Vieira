@@ -1,0 +1,20 @@
+.table-data {
+    background-color: orange;
+}
+
+#caiotas {
+    background-color: orange;
+    color:red
+}
+#paulinha {
+    background-color: orange;
+    color:green
+}
+#miau {
+    background-color: orange;
+    color:blue
+}
+#botao1 {
+    width="250"; height="250"; margin="10px"
+
+}
