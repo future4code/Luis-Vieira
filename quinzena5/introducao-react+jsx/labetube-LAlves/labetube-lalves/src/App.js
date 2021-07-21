@@ -65,7 +65,7 @@ function App() {
     </main>
 
     <footer>
-        <h4>Oi! Eu moro no footer!</h4>
+        <h4>Oi! Estou morando no footer!</h4>
     </footer>
   </div>
 </div>
