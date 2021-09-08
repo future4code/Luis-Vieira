@@ -12,7 +12,7 @@ export const Profile = styled.div`
     align-items: center;
     justify-content: center;
     width: 400px;
-    height: 80vh;
+    height: 70vh;
     border: 1px solid grey;
     border-radius: 20px;
     padding: 40px;

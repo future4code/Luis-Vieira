@@ -6,6 +6,7 @@ const App = () => {
   //Renderização condicional
   // Estado que diz a tela atual 
   // função para mudar de tela (pode ser ternário)
+  
   const [currentPage, setCurrentPage] = useState("home")
 
   const changePage = () => {

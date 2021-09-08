@@ -41,7 +41,7 @@ export const HomePage = () => {
                 <h2>{profile.name}, {profile.age}</h2>
                 <p>{profile.bio}</p>
                 <ButtonsBar>
-                    <button onClick={() => choosePerson(true)}>❌ Méh</button>
+                    <button onClick={() => choosePerson(true)}>❌ Méhh</button>
                     <button onClick={() => choosePerson(false)}>❤ Crush</button>
                 </ButtonsBar>
                 
