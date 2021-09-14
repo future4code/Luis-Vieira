@@ -1,32 +1,45 @@
 import React, {useState, useEffect} from "react"
-import { HomeContainer, Profile, ProfileImage, header, ButtonsBar } from "./styled"
+import { HomeContainer, Profile, ProfileImage, header, ButtonsBar, ButtonStyle } from "./styled"
 import axios from "axios"
 
 export const HomePage = () => {
     const [profile, setProfile] = useState({})
 
-    const url = "https://us-central1-missao-newton.cloudfunctions.net/astroMatch/luis-vieira-johnson/person"
+    const url = "https://us-central1-missao-newton.cloudfunctions.net/astroMatch/luis-vieira-johnson"
    
    useEffect(() => {
        getProfile()
    },[]) 
 
     const getProfile = () =>{
-        axios.get(url)
-        .then((resposta) => {
-            setProfile(resposta.data.profile)
+        axios.get(url + "/person")
+        .then((response) => {
+            setProfile(response.data.profile)
         })
-        .catch((erro) => {
-            console.log(erro.response)
+        .catch((error) => {
+            console.log(error.response)
+
         })
     }
 
-    const choosePerson = () => {
-        console.log("O Botão funfou")
+    const choosePerson = (escolha) => {
+      
+        const body = {
+            "id": profile.id ,
+            "choice": escolha
+        }
+      
+        axios.post(url + "/choose-person", body)
+        .then((response) => {
+            getProfile(response.data.profile)
+    
+        })
+
     }
 
     return(
         <HomeContainer>
+ 
             
             
                 {!profile ? <div>Acabaram os perfis! Aperte o botão de limpar</div> :
@@ -34,7 +47,7 @@ export const HomePage = () => {
              <ButtonsBar>
                 <button>Lista Matches</button>
                 <h3>Logo astroMatch</h3>
-                <button>HomePage</button>
+                <ButtonStyle>HomePage</ButtonStyle>
              </ButtonsBar>
                 
                 <ProfileImage src={profile.photo}/>
